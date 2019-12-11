@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentApp.Money">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Button Text="Bank of Ireland" HeightRequest="150" WidthRequest="50" BackgroundColor="LightBlue" Clicked="Button_Clicked"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Button Text="AIB" HeightRequest="150" WidthRequest="50" BackgroundColor="Beige" Clicked="Button_Clicked_1"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Button Text="KBC" HeightRequest="150" WidthRequest="50" BackgroundColor="Blue" Clicked="Button_Clicked_2"/>
+            </StackLayout>
+
+            
+           
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
